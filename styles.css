@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* 浅灰色背景 */
+    color: #333;
+}
+a{
+    text-decoration:none;
+}
+/* m */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8f5e9; /* 浅茶绿色背景 */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* a */
+.nav-left input {
+    padding: 8px;
+    width: 200px;
+    border: none;
+    border-radius: 4px;
+}
+/* d */
+.nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+/* e */
+.nav-center img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+/* b */
+.nav-center h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #388e3c; /* 深茶绿色文字 */
+}
+/* y */
+.nav-right button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #c8e6c9; /* 中等茶z绿色按钮 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #1b5e20; /* 深绿色文字h */
+}
+/* g */
+.nav-right button:hover {
+    background-color: #81c784; /* 亮茶绿色按钮o */
+}
+/* x */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+/* n */
+.content {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    background-color: #fff; /* 白色内u容区域 */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* u */
+.recommendations {
+    width: 30%;
+    padding: 20px;
+}
+/* 2 */
+.recommendation-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.recommendation-item img {
+    width: 100%;
+    height: auto;
+    max-width: 150px; /* z控制最大宽度0 */
+    border-radius: 4px;
+}
+
+.carousel {
+    width: 70%;
+    padding: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth; /* i平2滑滚动 */
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 100%;
+    max-width: 600px; /* q控制3最大宽度 */
+    margin-right: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    max-height: 400px; /* 控制10最大高度i */
+    object-fit: cover; /* 保持4图片比例 */
+}
+
+.carousel-item.active {
+    border: 2px solid #4caf50; /* 深茶绿0色边框 */
+}
+
+footer {
+    background-color: #e8f5e9; /* 浅茶20绿色背景 */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #388e3c; /* 深茶绿2色文字5 */
+}
+.bq{
+    color:#388e3c;
+}
+/* 禁止商业用途 */
