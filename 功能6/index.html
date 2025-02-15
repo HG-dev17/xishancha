@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="webplus-main">
+    <head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>XiShanTeaWorld</title>
+    <meta name="keywords" content="部门名称">
+    <meta name="description" content="学校描述">
+
+    <!-- 样式文件 -->
+    <link type="text/css" href="system.css" rel="stylesheet"/>
+    <link href="default.css" type="text/css" rel="stylesheet">
+    <link type="text/css" href="sudyNav.css" rel="stylesheet" />
+    <link type="text/css" href="datepicker.css" rel="stylesheet" />
+    <link type="text/css" href="simplenews.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="extends.css" type="text/css" media="all" />
+    <style type="text/css">
+body, td, th {
+	color: #FFF;
+	font-family: "微软雅黑", "Microsoft YaHei", Arial, sans-serif;
+}
+body {
+	background-color: #999999;
+}
+</style>
+    </head>
+
+    <body>
+<div class="wrapper header" id="header">
+      <div class="inner clearfix">
+    <div class="head"> 
+          <!-- logo开始 -->
+          <div class="sitelogo"> <a href="index.html" title="shouyao"> <img src="img/7739bd3c83ca5c7c45f5d9faa35481c.jpg" width="83" height="53" border='0' align="absmiddle" /><span class="xian"></span> <span class="sitetitle">XiShanTeaWorld</span> </a> </div>
+          <!-- //logo结束 --> 
+        </div>
+    <div class="navbar">
+          <div class="navbox">
+        <div class="wp_search">
+              <table>
+            <tr>
+                  <td height="25px"><input id="keyword" name="keyword" style="width: 150px" class="keyword" type="text" value="请输入关键字" onfocus="if (this.value === '请输入关键字') { this.value = ''; }" onblur="if (this.value === '') { this.value = '请输入关键字'; }" onkeydown="return onKeyEvent(event);"/></td>
+                  <td><input type="hidden" id="securl" value="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&_p=YXM9MjMmdD05MiZkPTI4NyZwPTEmbT1TTiY_"/>
+                <input name="btnsearch" class="search" type="submit" value="" onclick="checkValues();"/></td>
+                </tr>
+          </table>
+            </div>
+        <script>
+                        function onKeyEvent(event){
+                            if (event.keyCode != '13') {
+                                return;
+                            }
+                            checkValues();
+                        }
+                        function checkValues(){
+                            var url = $("#securl").val();
+                            var keyword = $("input[name='keyword']").val();
+                            if (keyword === '请输入关键字') {
+                                keyword = ''; 
+                            }
+                            if (keyword !== '') {
+                                keyword = encodeURI(encodeURI(keyword));
+                                url = url + "&keyword=" + keyword;
+                            }
+                            window.open(url);
+                        }
+                    </script> 
+      </div>
+        </div>
+  </div>
+    </div>
+<div class="wrapper" id="menu">
+      <div class="inner clearfix">
+    <div id="wp_nav_w281">
+          <ul class="wp_nav">
+        <li class="nav-item i1"> <a href="index.html" title="Homepage" target="_self"><span class="item-name">Homepage </span></a><i class="mark"></i> </li>
+        <li class="nav-item i2"> <a href="../功能1/index.html" title="TeaSales" target="_self"><span class="item-name">Non-heritage Master Selection</span></a><i class="mark"></i> </li>
+        <li class="nav-item i3"> <a href="../功能2/index.html" title="Tea+CulturalCreation" target="_self"><span class="item-name">Tea Rhyme National Tide Workshop </span></a><i class="mark"></i> </li>
+        <li class="nav-item i4"> <a href="../功能3/index.html" title="Tea+Photography
+
+" target="_self"><span class="item-name">Tea Zen Blind Study Camp </span></a><i class="mark"></i> </li>
+        <li class="nav-item i5"> <a href="../功能4/index.html" title="TeaDerivativesSales 
+
+" target="_self"><span class="item-name">Tea Garden Script Killing Live Room</span></a><i class="mark"></i> </li>
+        <li class="nav-item i6"> <a href="../功能5/index.html" title="Tea + VR" target="_self"><span class="item-name">Tea Tour Aesthetics Set</span></a><i class="mark"></i> </li>
+        <li class="nav-item i7"> <a href="../功能6/index.html" title="Tea + Cultural Tourism Education" target="_self"><span class="item-name"> Tea Spirit Laboratory</span></a><i class="mark"></i> </li>
+        <li class="nav-item i8"><a href="../功能7/index.html" title="E-commerce Live" target="_self"><span class="item-name"> Mta Universe Tea Space</span></a><i class="mark"></i></li>
+        <li class="nav-item i8"><a href="../联系我们/index.html" title="E-commerce Live" target="_self"><span class="item-name"> Contact Us</span></a><i class="mark"></i></li>
+          </ul>
+        </div>
+  </div>
+    </div>
+<div class="wrapper" id="banner">
+      <div class="inner clearfix"></div>
+      <div align="center"><span class="clearfix"><span class="nav-item i3"> <a href="theme_education.html" title="Tea+CulturalCreation" target="_self"><span class="item-name"><span class="黑体">&nbsp; </span></span></a></span></span> <span class="nav-item i3"><a href="theme_education.html" title="Tea+CulturalCreation" target="_self"><span class="item-name"><span class="黑体"><span class="nav-item i7"><a href="download_center.html" title="Tea + Cultural Tourism Education" target="_self"><span class="。"><span class="黑体"><img src="../功能5/img/微信图片_20250121140226.jpg" width="200" height="199" align="middle">Tea Spirit Laboratory</span></span></a></span> <span class="黑体"><span class="。">&nbsp;</span></span><img src="../功能5/img/微信图片_20250121140324.jpg" width="140" height="177" align="middle"></div>
+    </div>
+<div class="wrapper" id="container">
+      <table width="1452" border="1" cellpadding="0" cellspacing="0">
+    <tr>
+          <th width="254" height="591" bgcolor="#99CC99" scope="row"><p>&nbsp;</p>
+        <h3 align="left" class="楷体">&nbsp;</h3>
+        <h3 align="left" class="楷体">&nbsp; &nbsp;&nbsp;<img src="../功能5/img/1.png" width="200" height="176"> &nbsp; </h3>
+        <h3 align="left" class="楷体"><span class="。">&nbsp;&nbsp; ￥55</span></h3>
+        <h3 align="justify" class="楷体"><span class="黑体">&nbsp;&nbsp;&nbsp; tea set</span> </h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p></p>
+        <p>&nbsp;</p>
+        <h3>&nbsp;</h3>
+        <p>&nbsp;</p></th>
+          <td width="480" height="591" bgcolor="#99CC99"><div align="justify">&nbsp; The tea sets for Guiping Xishan Tea are exquisite works of art. Porcelain and Yixing clay tea sets are often used, highlighting their elegance and beauty. These tea sets, decorated with intricate designs, enhance the flavor and enjoyment of the tea. Whether for daily use or special occasions, they are perfect choices.</div></td>
+          <td width="231" height="591" bgcolor="#99CC99">&nbsp;&nbsp;&nbsp;&nbsp;<img src="../功能5/img/5.png" width="200" height="171">
+        <p>&nbsp;&nbsp;<span class="。">&nbsp;&nbsp;￥55</span></p>
+        <h3 align="justify" class="楷体"><span class="黑体">&nbsp;</span><span class="黑体"> Xishan Tea Wine</span></h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p align="justify">&nbsp;</p>
+        <div align="justify"></div>
+        <p></p></td>
+          <td height="591" bgcolor="#99CC99">&nbsp;&nbsp;&nbsp;
+        <div align="justify">&nbsp;
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp; Experience the unique fusion of tea and wine with Xishan Tea Wine. Crafted from premium tea leaves and aged in traditional methods, this tea-flavored wine offers a harmonious blend of tea's fresh aroma and wine's smooth texture. Perfect for sipping and savoring, it brings a delightful surprise to your palate, making it an ideal choice for tea and wine lovers alike. </p>
+            </div>
+        <p align="justify">&nbsp;&nbsp; &nbsp;</p>
+        &nbsp;
+        <p>&nbsp;&nbsp; &nbsp;</p></td>
+        </tr>
+  </table>
+      <table width="1452" border="1">
+    <tr>
+          <th width="248" bgcolor="#99CC99" scope="col"><p><img src="../功能5/img/4.png" width="200" height="205"></p>
+        <h3 align="left" class="楷体"><span class="。">&nbsp; ￥59.9</span></h3>
+        <h3 class="楷体"><span class="黑体">Xishan Tea Facial Mask</span></h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p></th>
+          <th width="479" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp; Introducing the Xishan Tea Facial Mask, an indulgent skincare treat that combines the natural benefits of Xishan tea with advanced skincare technology. Infused with the rich antioxidants and soothing properties of Xishan tea, this mask deeply nourishes and hydrates the skin, leaving it smooth, radiant, and rejuvenated. Perfect for all skin types, the Xishan Tea Facial Mask helps to calm irritation, reduce inflammation, and promote a healthy, glowing complexion. Indulge in the luxurious sensorial experience of this tea-infused mask and let your skin savor the benefits of Xishan tea.</div></th>
+          <th width="227" bgcolor="#99CC99" scope="col"><p><img src="../功能5/img/微信图片_20250121140356.png" width="200" height="205"></p>
+        <h3 align="left" class="楷体"><span class="。">&nbsp;￥39.9</span></h3>
+        <h3 align="left" class="楷体"><span class="黑体">&nbsp; Xishan Slimming Tea</span></h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p>&nbsp;</p></th>
+          <th width="470" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp; Introducing Xishan Slimming Tea, a natural and effective way to support your weight loss journey. Infused with the finest ingredients sourced from the lush mountains of Xishan, this tea is designed to boost metabolism, aid digestion, and suppress appetite. Each cup is packed with antioxidants and nutrients that promote overall health and wellness. Whether you're looking to shed a few pounds or maintain your current weight, Xishan Slimming Tea is a delightful and refreshing addition to your daily routine. Enjoy the aromatic flavors while experiencing the benefits of a slimmer, healthier you.</div></th>
+        </tr>
+  </table>
+      <table width="1452" border="1">
+    <tr>
+          <th width="248" bgcolor="#99CC99" scope="col"><p><img src="../功能5/img/微信图片_20250121140210.png" width="200" height="155"></p>
+        <h3 align="left" class="楷体">&nbsp;<span class="。"> ￥19.9</span></h3>
+        <h3 class="楷体"><span class="黑体">Xishan Tea Round Fan</span></h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p></th>
+          <th width="479" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp; Introducing the Xishan Tea Round Fan, a delightful fusion of traditional craftsmanship and tea culture. Inspired by the lush tea fields of Xishan, this round fan is not only a practical tool for keeping cool but also an exquisite artwork that showcases the beauty of Chinese tea culture. Adorned with elegant tea-themed designs, it exudes an air of sophistication and tranquility. Whether used as a decorative piece in your home or carried with you during outdoor activities, the Xishan Tea Round Fan is a perfect blend of artistry and functionality, making it a cherished keepsake for tea enthusiasts and collectors alike.</div></th>
+          <th width="227" bgcolor="#99CC99" scope="col"><p><img src="../功能5/img/微信图片_20250121140235.jpg" width="200" height="134"></p>
+        <h3 align="left" class="楷体">&nbsp;<span class="。">￥7.9</span></h3>
+        <h3 class="楷体"><span class="黑体">Mascot mask</span></h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p>&nbsp;</p></th>
+          <th width="470" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp; Mascot and mask are two closely related concepts, though they have distinct meanings. A mascot is typically a person, animal, or object believed to bring luck or good fortune. It often serves as a symbolic figure for a team, organization, or event, aimed at inspiring positive energy and unity. On the other hand, a mask is an object worn on the face to conceal or alter one's appearance. Historically, masks have been used in various cultures for ceremonial, theatrical, or protective purposes. In the context of mascots, the term "mask" can evoke images of traditional costumes or headgear worn by mascots to enhance their charisma and identifiability.</div></th>
+        </tr>
+  </table>
+      <table width="1452" border="1">
+    <tr>
+          <th width="732" bgcolor="#99CC99" class="黑体" scope="col">合计（￥）</th>
+          <th width="704" bgcolor="#99CC99" scope="col">&nbsp;</th>
+        </tr>
+  </table>
+    </div>
+<div class="wrapper" id="footer">
+      <div class="inner">
+    <div class="foot">
+          <p class="copyright"><span class="inner" style="font-size: 24px">XiShanTeaWorld <a target="_blank" href="https://beian.miit.gov.cn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; welcome to view</a></span></p>
+        </div>
+  </div>
+    </div>
+<script src="jquery.min.js"></script> 
+<script src="loadStyle.js"></script> 
+<script src="grayscale.js"></script> 
+<script src="sudyNav.js"></script> 
+<script src="datepicker.js"></script> 
+<script src="extends.js"></script> 
+<script>
+        $(function() {
+            $(".slider").sudyfocus({
+                zWidth: 1003,
+                zHeight: 310,
+                pagination: false,
+                response: true,
+                title: {
+                    active: true,
+                    isAutoWidth: false,
+                    href: true
+                }
+            });
+        });
+    </script> 
+<script>
+        $(function() {
+            $(".sudy-tab").sudyTab({
+                handle: ".tab-menu li",
+                content: ".tab-list li",
+                trigger: "mouseenter",
+                start: 1,
+                autoPlay: {
+                    active: false,
+                    interval: 5000,
+                    pauseHover: true
+                }
+            });
+        });
+    </script>
+</body>
+</html>
