@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="webplus-main">
+    <head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>XiShanTeaWorld</title>
+    <meta name="keywords" content="部门名称">
+    <meta name="description" content="学校描述">
+
+    <!-- 样式文件 -->
+    <link type="text/css" href="system.css" rel="stylesheet"/>
+    <link href="default.css" type="text/css" rel="stylesheet">
+    <link type="text/css" href="sudyNav.css" rel="stylesheet" />
+    <link type="text/css" href="datepicker.css" rel="stylesheet" />
+    <link type="text/css" href="simplenews.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="extends.css" type="text/css" media="all" />
+    <style type="text/css">
+body, td, th {
+	color: #FFF;
+	font-family: "微软雅黑", "Microsoft YaHei", Arial, sans-serif;
+}
+body {
+	background-color: #999999;
+}
+</style>
+    </head>
+
+    <body>
+<div class="wrapper header" id="header">
+      <div class="inner clearfix">
+    <div class="head"> 
+          <!-- logo开始 -->
+          <div class="sitelogo"> <a href="index.html" title="shouyao"> <img src="img/7739bd3c83ca5c7c45f5d9faa35481c.jpg" width="83" height="53" border='0' align="absmiddle" /><span class="xian"></span> <span class="sitetitle">XiShanTeaWorld</span> </a> </div>
+          <!-- //logo结束 --> 
+        </div>
+    <div class="navbar">
+          <div class="navbox">
+        <div class="wp_search">
+              <table>
+            <tr>
+                  <td height="25px"><input id="keyword" name="keyword" style="width: 150px" class="keyword" type="text" value="请输入关键字" onfocus="if (this.value === '请输入关键字') { this.value = ''; }" onblur="if (this.value === '') { this.value = '请输入关键字'; }" onkeydown="return onKeyEvent(event);"/></td>
+                  <td><input type="hidden" id="securl" value="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&_p=YXM9MjMmdD05MiZkPTI4NyZwPTEmbT1TTiY_"/>
+                <input name="btnsearch" class="search" type="submit" value="" onclick="checkValues();"/></td>
+                </tr>
+          </table>
+            </div>
+        <script>
+                        function onKeyEvent(event){
+                            if (event.keyCode != '13') {
+                                return;
+                            }
+                            checkValues();
+                        }
+                        function checkValues(){
+                            var url = $("#securl").val();
+                            var keyword = $("input[name='keyword']").val();
+                            if (keyword === '请输入关键字') {
+                                keyword = ''; 
+                            }
+                            if (keyword !== '') {
+                                keyword = encodeURI(encodeURI(keyword));
+                                url = url + "&keyword=" + keyword;
+                            }
+                            window.open(url);
+                        }
+                    </script> 
+      </div>
+        </div>
+  </div>
+    </div>
+<div class="wrapper" id="menu">
+      <div class="inner clearfix">
+    <div id="wp_nav_w281">
+          <ul class="wp_nav">
+        <li class="nav-item i1"> <a href="index.html" title="Homepage" target="_self"><span class="item-name">Homepage </span></a><i class="mark"></i> </li>
+        <li class="nav-item i2"> <a href="../功能1/index.html" title="TeaSales" target="_self"><span class="item-name">Non-heritage Master Selection</span></a><i class="mark"></i> </li>
+        <li class="nav-item i3"> <a href="../功能2/index.html" title="Tea+CulturalCreation" target="_self"><span class="item-name">Tea Rhyme National Tide Workshop </span></a><i class="mark"></i> </li>
+        <li class="nav-item i4"> <a href="../功能3/index.html" title="Tea+Photography
+
+" target="_self"><span class="item-name">Tea Zen Blind Study Camp </span></a><i class="mark"></i> </li>
+        <li class="nav-item i5"> <a href="../功能4/index.html" title="TeaDerivativesSales 
+
+" target="_self"><span class="item-name">Tea Garden Script Killing Live Room</span></a><i class="mark"></i> </li>
+        <li class="nav-item i6"> <a href="../功能5/index.html" title="Tea + VR" target="_self"><span class="item-name">Tea Tour Aesthetics Set</span></a><i class="mark"></i> </li>
+        <li class="nav-item i7"> <a href="../功能6/index.html" title="Tea + Cultural Tourism Education" target="_self"><span class="item-name"> Tea Spirit Laboratory</span></a><i class="mark"></i> </li>
+        <li class="nav-item i8"><a href="../功能7/index.html" title="E-commerce Live" target="_self"><span class="item-name"> Mta Universe Tea Space</span></a><i class="mark"></i></li>
+        <li class="nav-item i8"><a href="../联系我们/index.html" title="E-commerce Live" target="_self"><span class="item-name"> Contact Us</span></a><i class="mark"></i></li>
+          </ul>
+        </div>
+  </div>
+    </div>
+<div class="wrapper" id="banner">
+      <div class="inner clearfix"></div>
+      <div align="center"> <span class="nav-item i2"><a href="organization.html" title="TeaSales" target="_self"><span class="nav-item i4"><a href="management.html" title="Tea+Photography
+
+" target="_self"><span class="黑体"><a href="management.html" title="Tea+Photography
+
+" target="_self"><span class="。"><img src="../功能1/img/微信图片_20250121140324.jpg" width="140" height="177" align="middle"></span></a><span class="。">Tea Zen Blind Study Camp</span><img src="img/微信图片_20250121140226.jpg" width="200" height="199" align="middle"></span></div>
+    </div>
+<div class="wrapper" id="container">
+      <table width="1452" border="1" cellpadding="0" cellspacing="0">
+    <tr>
+          <td width="499" bgcolor="#CCCCCC"><table width="1449" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+              <th width="483" bgcolor="#99CC99" scope="row"><p>&nbsp;</p>
+                  <p class="黑体">&nbsp;</p>
+                  <p class="黑体"><a href="img/7e83ffaa327a307c49b343920430815f.mp4"><img src="img/微信图片_20250121140229.jpg" width="200" height="261"></a></p>
+                  <p class="黑体">Please click on me.</p>
+                  <h3 align="left" class="楷体"><span class="mr">&nbsp;&nbsp;</span></h3>
+                  <p>&nbsp;</p></th>
+              <td width="960" bgcolor="#99CC99"><p align="justify">&nbsp;&nbsp; <span class="。">After watching the introductory video about Xishan Tea, I am left with a profound appreciation for its rich history and unique cultural heritage. Nestled in the picturesque landscapes of China, Xishan Tea boasts a time-honored tradition of cultivation and processing that has been passed down through generations. The video not only showcased the meticulous care taken in each step of the tea-making process but also highlighted the stunning natural environment that contributes to the tea's distinct flavor. It served as a fascinating glimpse into the world of Chinese tea culture, inspiring me to explore more about this ancient and revered beverage. </span></p></td>
+            </tr>
+            </table></td>
+        </tr>
+  </table>
+      <table width="1452" border="1">
+    <tr>
+          <th width="254" bgcolor="#99CC99" scope="col"><p align="justify">&nbsp; &nbsp;&nbsp; &nbsp;<img src="img/微信图片_20250214125848.jpg" width="150" height="200"></p>
+        <p align="justify" class="黑体"> <strong>Guiping City Guangxi Zhuang Autonomous Region</strong></p>
+        <p align="justify" class="楷体">&nbsp;</p></th>
+          <th width="434" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp;&nbsp;&nbsp; The origin of Xishan Tea lies in the picturesque Guiping City, nestled within the Guangxi Zhuang Autonomous Region of China. This serene locale, blessed with fertile lands and a temperate climate, provides the perfect environment for the cultivation of this esteemed tea variety. Known for its meticulous processing techniques and rich, distinctive flavor, Xishan Tea has been celebrated for centuries as a hallmark of Chinese tea culture. The region's dedication to preserving traditional methods and its commitment to quality have made Xishan Tea a renowned and sought-after beverage worldwide.</div></th>
+          <th width="250" bgcolor="#99CC99" scope="col"><p><img src="img/微信图片_20250214130413.jpg" width="200" height="265"></p>
+        <p align="justify"> <span class="黑体">&nbsp;&nbsp;The location of Xishan Tea on the map of Guangxi </span></p>
+        <p>&nbsp;</p></th>
+          <th width="486" bgcolor="#99CC99" scope="col"><p align="justify" id="p">&nbsp; Originating from the western mountains of Guiping City in Guangxi, China, Xishan Tea is a celebrated variety known for its exquisite flavor and historical significance. Nestled in a fertile and temperate region, the tea plants thrive in the cool, misty conditions, benefiting from natural irrigation from mountain streams. The meticulous processing techniques employed by local tea makers further enhance the tea's distinct aroma and flavor. Renowned for its delicate taste and health benefits, Xishan Tea has become a favorite among tea enthusiasts worldwide.</p>
+        <p align="justify">&nbsp;</p>
+        <p align="justify">&nbsp;</p></th>
+        </tr>
+  </table>
+      <table width="1452" border="1">
+    <tr>
+          <th width="254" height="278" bgcolor="#99CC99" scope="col"><p align="justify">&nbsp;&nbsp; &nbsp;<a href="img/20ea1cccc14fff027d201cc44254a3b8.mp4"><img src="img/微信图片_20250214131608.jpg" width="200" height="152"></a> </p>
+        <p align="center" class="楷体">&nbsp;If you are a travel enthusiast<span class="楷体"><span class="楷体">.</span></span></p></th>
+          <th width="436" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp; For travel enthusiasts, Xishan Tea offers an intriguing allure. Its unique origin in the serene western mountains of Guiping City, Guangxi, China, presents a scenic backdrop that is as enchanting as the tea itself. The journey to the tea fields, amid lush greenery and breathtaking views, offers an immersive experience that blends nature and culture. The opportunity to learn about the traditional tea-making process and sample the delicate, refreshing tea only adds to the allure, making a visit to the Xishan Tea region a must for travelers seeking authenticity and a taste of local heritage.</div></th>
+          <th width="249" bgcolor="#99CC99" scope="col"><p><a href="img/78e680cb4338e95e0df5bd42430f3bb3.mp4"><img src="img/微信图片_20250214131613.jpg" width="200" height="213"></a></p>
+        <p class="楷体">If you are a tea enthusiast.</p></th>
+          <th width="485" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp; For tea enthusiasts, Xishan Tea holds a special allure. Its rich history and origins in the picturesque western mountains of Guiping City, Guangxi, China, promise an authentic tea experience unlike any other. The tea's delicate aroma and flavor, a result of the meticulous processing techniques employed by local artisans, captivate the senses. The opportunity to savor this exquisite tea, steeped in tradition and crafted with passion, offers tea lovers a glimpse into the region's cultural heritage and a taste of excellence.</div></th>
+        </tr>
+  </table>
+      、</div>
+<div class="wrapper" id="footer">
+      <div class="inner">
+    <div class="foot">
+          <p class="copyright"><span class="inner" style="font-size: 24px">XiShanTeaWorld <a target="_blank" href="https://beian.miit.gov.cn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; welcome to view</a></span></p>
+        </div>
+  </div>
+    </div>
+<script src="jquery.min.js"></script> 
+<script src="loadStyle.js"></script> 
+<script src="grayscale.js"></script> 
+<script src="sudyNav.js"></script> 
+<script src="datepicker.js"></script> 
+<script src="extends.js"></script> 
+<script>
+        $(function() {
+            $(".slider").sudyfocus({
+                zWidth: 1003,
+                zHeight: 310,
+                pagination: false,
+                response: true,
+                title: {
+                    active: true,
+                    isAutoWidth: false,
+                    href: true
+                }
+            });
+        });
+    </script> 
+<script>
+        $(function() {
+            $(".sudy-tab").sudyTab({
+                handle: ".tab-menu li",
+                content: ".tab-list li",
+                trigger: "mouseenter",
+                start: 1,
+                autoPlay: {
+                    active: false,
+                    interval: 5000,
+                    pauseHover: true
+                }
+            });
+        });
+    </script>
+</body>
+</html>

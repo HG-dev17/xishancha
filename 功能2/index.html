@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="webplus-main">
+    <head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>XiShanTeaWorld</title>
+    <meta name="keywords" content="部门名称">
+    <meta name="description" content="学校描述">
+
+    <!-- 样式文件 -->
+    <link type="text/css" href="system.css" rel="stylesheet"/>
+    <link href="default.css" type="text/css" rel="stylesheet">
+    <link type="text/css" href="sudyNav.css" rel="stylesheet" />
+    <link type="text/css" href="datepicker.css" rel="stylesheet" />
+    <link type="text/css" href="simplenews.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="extends.css" type="text/css" media="all" />
+    <style type="text/css">
+body, td, th {
+	color: #FFF;
+	font-family: "微软雅黑", "Microsoft YaHei", Arial, sans-serif;
+}
+body {
+	background-color: #999999;
+}
+</style>
+    </head>
+
+    <body>
+<div class="wrapper header" id="header">
+      <div class="inner clearfix">
+    <div class="head"> 
+          <!-- logo开始 -->
+          <div class="sitelogo"> <a href="index.html" title="shouyao"> <img src="img/7739bd3c83ca5c7c45f5d9faa35481c.jpg" width="83" height="53" border='0' align="absmiddle" /><span class="xian"></span> <span class="sitetitle">XiShanTeaWorld</span> </a> </div>
+          <!-- //logo结束 --> 
+        </div>
+    <div class="navbar">
+          <div class="navbox">
+        <div class="wp_search">
+              <table>
+            <tr>
+                  <td height="25px"><input id="keyword" name="keyword" style="width: 150px" class="keyword" type="text" value="请输入关键字" onfocus="if (this.value === '请输入关键字') { this.value = ''; }" onblur="if (this.value === '') { this.value = '请输入关键字'; }" onkeydown="return onKeyEvent(event);"/></td>
+                  <td><input type="hidden" id="securl" value="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&_p=YXM9MjMmdD05MiZkPTI4NyZwPTEmbT1TTiY_"/>
+                <input name="btnsearch" class="search" type="submit" value="" onclick="checkValues();"/></td>
+                </tr>
+          </table>
+            </div>
+        <script>
+                        function onKeyEvent(event){
+                            if (event.keyCode != '13') {
+                                return;
+                            }
+                            checkValues();
+                        }
+                        function checkValues(){
+                            var url = $("#securl").val();
+                            var keyword = $("input[name='keyword']").val();
+                            if (keyword === '请输入关键字') {
+                                keyword = ''; 
+                            }
+                            if (keyword !== '') {
+                                keyword = encodeURI(encodeURI(keyword));
+                                url = url + "&keyword=" + keyword;
+                            }
+                            window.open(url);
+                        }
+                    </script> 
+      </div>
+        </div>
+  </div>
+    </div>
+<div class="wrapper" id="menu">
+      <div class="inner clearfix">
+    <div id="wp_nav_w281">
+          <ul class="wp_nav">
+        <li class="nav-item i1"> <a href="index.html" title="Homepage" target="_self"><span class="item-name">Homepage </span></a><i class="mark"></i> </li>
+        <li class="nav-item i2"> <a href="../功能1/index.html" title="TeaSales" target="_self"><span class="item-name">Non-heritage Master Selection</span></a><i class="mark"></i> </li>
+        <li class="nav-item i3"> <a href="../功能2/index.html" title="Tea+CulturalCreation" target="_self"><span class="item-name">Tea Rhyme National Tide Workshop </span></a><i class="mark"></i> </li>
+        <li class="nav-item i4"> <a href="../功能3/index.html" title="Tea+Photography
+
+" target="_self"><span class="item-name">Tea Zen Blind Study Camp </span></a><i class="mark"></i> </li>
+        <li class="nav-item i5"> <a href="../功能4/index.html" title="TeaDerivativesSales 
+
+" target="_self"><span class="item-name">Tea Garden Script Killing Live Room</span></a><i class="mark"></i> </li>
+        <li class="nav-item i6"> <a href="../功能5/index.html" title="Tea + VR" target="_self"><span class="item-name">Tea Tour Aesthetics Set</span></a><i class="mark"></i> </li>
+        <li class="nav-item i7"> <a href="../功能6/index.html" title="Tea + Cultural Tourism Education" target="_self"><span class="item-name"> Tea Spirit Laboratory</span></a><i class="mark"></i> </li>
+        <li class="nav-item i8"><a href="../功能7/index.html" title="E-commerce Live" target="_self"><span class="item-name"> Mta Universe Tea Space</span></a><i class="mark"></i></li>
+        <li class="nav-item i8"><a href="../联系我们/index.html" title="E-commerce Live" target="_self"><span class="item-name"> Contact Us</span></a><i class="mark"></i></li>
+          </ul>
+        </div>
+  </div>
+    </div>
+<div class="wrapper" id="banner">
+      <div class="inner clearfix"></div>
+      <div align="center"><span class="nav-item i3"> <a href="theme_education.html" title="Tea+CulturalCreation" target="_self"><span class="item-name"><span class="黑体"><img src="../功能1/img/微信图片_20250121140324.jpg" width="150" height="190" align="middle">Tea Rhyme National Tide Workshop &nbsp; &nbsp; </span></span></a></span><img src="../功能1/img/4e404f92b531190ec3a1769c20f4a615_.jpg" width="180" height="184" align="middle"></div>
+    </div>
+<div class="wrapper" id="container">
+      <table width="1452" border="1" cellpadding="0" cellspacing="0">
+    <tr>
+          <th width="254" height="591" bgcolor="#99CC99" scope="row"><p>&nbsp;</p>
+        <h3 align="left" class="楷体">&nbsp;</h3>
+        <h3 align="left" class="楷体"><img src="../功能1/img/微信图片_20250121140243.jpg" width="250" height="132"></h3>
+        <h3 align="left" class="楷体">￥30</h3>
+        <h3 align="justify" class="楷体"><span class="黑体">&nbsp;trendy Chinese fan</span></h3>
+        <p>&nbsp;</p>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p></p>
+        <p>&nbsp;</p>
+        <h3>&nbsp;</h3>
+        <p>&nbsp;</p></th>
+          <td width="480" height="591" bgcolor="#99CC99"><p align="justify">&nbsp;&nbsp; The Chinese traditional fan, also known as the "Guo Chao" fan, combines traditional craftsmanship with modern design. It showcases intricate patterns and vibrant colors, reflecting Chinese cultural heritage. As a fashionable accessory, it has become a symbol of contemporary Chinese aesthetics and pride.&nbsp;</p>
+        <h3 align="left" class="楷体">&nbsp;</h3>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P</p></td>
+          <td width="231" height="591" bgcolor="#99CC99">&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/微信图片_20250121140203.jpg" alt="" width="194" height="158">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="楷体">￥25</span></p>
+        <h3 align="justify" class="楷体">&nbsp;&nbsp;&nbsp;<span class="黑体"> Tea incense bag</span></h3>
+        <div align="justify">
+              <table width="200" border="1" cellpadding="0" cellspacing="0">
+            <tr>
+                  <th bgcolor="#99CC33" scope="col">加入购物车</th>
+                </tr>
+          </table>
+            </div>
+        <p></p></td>
+          <td height="591" bgcolor="#99CC99">&nbsp;&nbsp;&nbsp;&nbsp;The tea incense bag is a unique blend of tea leaves and aromatic herbs, encapsulated in a small, portable pouch. It offers a delightful fusion of tea's subtle flavors and incense's soothing fragrances, providing a relaxing and rejuvenating experience for both mind and body.
+        <p>&nbsp;&nbsp; &nbsp;</p>
+        &nbsp;
+        <p>&nbsp;&nbsp; &nbsp;</p></td>
+        </tr>
+  </table>
+      <table width="1452" border="1">
+    <tr>
+          <th width="248" bgcolor="#99CC99" scope="col"><p><img src="../功能1/img/微信图片_20250121140251.jpg" width="200" height="152"></p>
+        <h3 align="left" class="楷体">&nbsp; ￥9.9</h3>
+        <h3 class="楷体"><span class="黑体">Postcard</span> </h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p></th>
+          <th width="479" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp; This postcard features Xishan Tea, a premium Chinese tea variety renowned for its delicate aroma and refreshing taste. Set against a backdrop of lush mountains, it captures the essence of where this tea is cultivated, inviting you to savor the rich heritage and flavor of Xishan Tea.</div></th>
+          <th width="227" bgcolor="#99CC99" scope="col"><p><img src="../功能1/img/微信图片_20250121140235.jpg" width="200" height="134"></p>
+        <h3 align="left" class="楷体">&nbsp;￥7.9</h3>
+        <h3 class="楷体"><span class="黑体">Mascot mask</span></h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p>&nbsp;</p></th>
+          <th width="470" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp; The mascot mask combines protection with charm, featuring the delightful image of a mascot. It not only effectively shields against airborne particles but also brings a sense of joy and positivity. Perfect for daily wear, it adds a touch of fun to your outfit while ensuring your safety.</div></th>
+        </tr>
+  </table>
+      <table width="1452" border="1">
+    <tr>
+          <th width="248" bgcolor="#99CC99" scope="col"><p><img src="../功能1/img/微信图片_20250121140156.jpg" width="100" height="117"><img src="../功能1/img/微信图片_20250121140152.jpg" width="106" height="117"></p>
+        <h3 align="left" class="楷体">&nbsp; ￥19.9</h3>
+        <h3 class="楷体"><span class="黑体">&nbsp;Qingqing Ziqi canvas bag</span></h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p></th>
+          <th width="479" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp; The Qingqing Ziqi canvas bag showcases a unique blend of elegance and simplicity. Crafted from high-quality canvas material, it features a stylish design inspired by Qingqing Ziqi's charm, making it a perfect accessory for both casual and formal occasions.</div></th>
+          <th width="227" bgcolor="#99CC99" scope="col"><p><img src="../功能1/img/600597b1ada1b99da9e690f1984f163.png" width="200" height="130"></p>
+        <h3 align="left" class="楷体">&nbsp;￥7.9</h3>
+        <h3 class="楷体"><span class="黑体">Mascot mask</span></h3>
+        <table width="200" border="1" cellpadding="0" cellspacing="0">
+              <tr>
+            <th bgcolor="#99CC33" scope="col">加入购物车</th>
+          </tr>
+            </table>
+        <p>&nbsp;</p></th>
+          <th width="470" bgcolor="#99CC99" scope="col"><div align="justify">&nbsp;&nbsp; Mascot mask. This refers to a mask designed with the image of a mascot, often used to add a touch of fun and creativity while still providing protection.</div></th>
+        </tr>
+  </table>
+      <table width="1452" border="1">
+    <tr>
+          <th width="733" bgcolor="#99CC99" scope="col"><span class="黑体">合计（￥）</span></th>
+          <th width="703" bgcolor="#99CC99" scope="col">&nbsp;</th>
+        </tr>
+  </table>
+      、</div>
+<div class="wrapper" id="footer">
+      <div class="inner">
+    <div class="foot">
+          <p class="copyright"><span class="inner" style="font-size: 24px">XiShanTeaWorld <a target="_blank" href="https://beian.miit.gov.cn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; welcome to view</a></span></p>
+        </div>
+  </div>
+    </div>
+<script src="jquery.min.js"></script> 
+<script src="loadStyle.js"></script> 
+<script src="grayscale.js"></script> 
+<script src="sudyNav.js"></script> 
+<script src="datepicker.js"></script> 
+<script src="extends.js"></script> 
+<script>
+        $(function() {
+            $(".slider").sudyfocus({
+                zWidth: 1003,
+                zHeight: 310,
+                pagination: false,
+                response: true,
+                title: {
+                    active: true,
+                    isAutoWidth: false,
+                    href: true
+                }
+            });
+        });
+    </script> 
+<script>
+        $(function() {
+            $(".sudy-tab").sudyTab({
+                handle: ".tab-menu li",
+                content: ".tab-list li",
+                trigger: "mouseenter",
+                start: 1,
+                autoPlay: {
+                    active: false,
+                    interval: 5000,
+                    pauseHover: true
+                }
+            });
+        });
+    </script>
+</body>
+</html>
