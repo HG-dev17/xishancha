@@ -1,0 +1,289 @@
+/* 基础样式 */
+body {
+    font-family: "微软雅黑", "Microsoft YaHei", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: #0058a8;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-size: 36px;
+}
+
+img {
+    border: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* 顶部导航 */
+#top {
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#top .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top .sjyc {
+    display: flex;
+    align-items: center;
+}
+
+/* 头部 */
+.header {
+    background-color: #0058a8;
+    padding: 10px 0;
+}
+
+.sitelogo {
+    display: flex;
+    align-items: center;
+}
+
+.sitelogo img {
+    height: 60px;
+}
+
+.sitelogo .sitetitle {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 搜索框 */
+.wp_search {
+    display: flex;
+    align-items: center;
+}
+
+.wp_search input.keyword {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.wp_search input.search {
+    background-color: #0058a8;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* 导航菜单 */
+#menu {
+    background-color: #333;
+    color: #fff;
+}
+
+.wp_nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.wp_nav li {
+    position: relative;
+}
+
+.wp_nav a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.wp_nav a:hover {
+    background-color: #555;
+}
+
+.sub-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #4d4d4d;
+    list-style: none;
+    padding: 0;
+}
+
+.sub-nav li {
+    width: 200px;
+}
+
+.sub-nav a {
+    padding: 10px;
+    display: block;
+    color: #fff;
+}
+
+.sub-nav a:hover {
+    background-color: #555;
+}
+
+.wp_nav li:hover .sub-nav {
+    display: block;
+}
+
+/* 轮播图 */
+#banner {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slider img {
+    width: 100%;
+    display: block;
+}
+
+/* 内容区域 */
+#container {
+    padding: 20px 0;
+}
+
+.mod {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ml, .mc, .mr {
+	width: 32%;
+	font-size: 24px;
+	color: #F00;
+}
+
+.sudy-tab {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.tab-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.tab-menu li {
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.tab-menu li:hover {
+    background-color: #f5f5f5;
+}
+
+.tab-list {
+    display: none;
+    padding: 10px 0;
+}
+
+.tab-list li {
+    padding: 10px 0;
+}
+
+.tab-list li a {
+    display: block;
+    padding: 5px;
+    color: #333;
+}
+
+.tab-list li a:hover {
+    text-decoration: underline;
+}
+
+/* 底部 */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.copyright a {
+    color: #fff;
+}.webplus-main body #container table tr th h3 code {
+	font-weight: bold;
+}
+.webplus-main body #container table tr th h3 code {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.webplus-main body #banner p {
+	color: #000;
+}
+.黑体 {
+	font-family: "Comic Sans MS", cursive;
+}
+.webplus-main body #banner .keyword .黑体 .黑体 {
+	color: #333;
+}
+.黑体 {
+	color: #000;
+	font-size: 18px;
+}
+.webplus-main body #banner .keyword .黑体 .黑体 {
+	font-size: 36px;
+}
+.楷体 {
+	font-size: 24px;
+	color: #000;
+}
+小体 {
+	font-size: 24px;
+}
+
+.webplus-main body #container table tr .黑体 .黑体 {
+	font-size: 36px;
+}
+.黑体 {
+	font-size: 24px;
+	color: #000;
+}
+.webplus-main body #container table tr .黑体 .黑体 .黑体 .黑体 {
+	font-size: 36px;
+}
+.webplus-main body #container table tr th h3 {
+	font-size: 14px;
+}
